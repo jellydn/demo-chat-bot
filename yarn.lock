@@ -846,10 +846,10 @@
   "resolved" "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.3.tgz"
   "version" "1.2.3"
 
-"@types/react@^16.14.3":
-  "integrity" "sha512-zPrXn03hmPYqh9DznqSFQsoRtrQ4aHgnZDO+hMGvsE/PORvDTdJCHQ6XvJV31ic+0LzF73huPFXUb++W6Kri0Q=="
-  "resolved" "https://registry.npmjs.org/@types/react/-/react-16.14.3.tgz"
-  "version" "16.14.3"
+"@types/react@^17.0.0":
+  "integrity" "sha512-Xt40xQsrkdvjn1EyWe1Bc0dJLcil/9x2vAuW7ya+PuQip4UYUaXyhzWmAbwRsdMgwOFHpfp7/FFZebDU6Y8VHA=="
+  "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.2.tgz"
+  "version" "17.0.2"
   dependencies:
     "@types/prop-types" "*"
     "csstype" "^3.0.2"
