@@ -1,10 +1,10 @@
 {
-    "name": "@urban-bot/starter-typescript",
-    "version": "0.2.1",
+    "name": "demo-chat-bot",
+    "version": "0.0.1",
     "description": "Start write chatbots with urban-bot and typescript",
     "repository": {
         "type": "git",
-        "url": "https://github.com/urban-bot/urban-bot-starter-typescript.git"
+        "url": "https://github.com/jellydn/demo-chat-bot.git"
     },
     "license": "MIT",
     "main": "dist/index.js",
