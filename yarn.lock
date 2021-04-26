@@ -6546,10 +6546,10 @@
     "clone-deep" "^4.0.1"
     "wildcard" "^2.0.0"
 
-"webpack-node-externals@^2.5.2":
-  "integrity" "sha512-aHdl/y2N7PW2Sx7K+r3AxpJO+aDMcYzMQd60Qxefq3+EwhewSbTBqNumOsCE1JsCUNoyfGj5465N0sSf6hc/5w=="
-  "resolved" "https://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-2.5.2.tgz"
-  "version" "2.5.2"
+"webpack-node-externals@^3.0.0":
+  "integrity" "sha512-LnL6Z3GGDPht/AigwRh2dvL9PQPFQ8skEpVrWZXLWBYmqcaojHNN0onvHzie6rq7EWKrrBfPYqNEzTJgiwEQDQ=="
+  "resolved" "https://registry.npmjs.org/webpack-node-externals/-/webpack-node-externals-3.0.0.tgz"
+  "version" "3.0.0"
 
 "webpack-sources@^2.1.1":
   "integrity" "sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w=="
