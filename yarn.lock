@@ -4555,10 +4555,10 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
-"ngrok@3.4.0":
-  "integrity" "sha512-fwgYlGQsLclMRVkGNhdWbeE5xx/xCoKr8zHoqRehOxGu4Ep14dAfe1u45rE0rqtUhWqTVfCl1lWV2rLUNizIDw=="
-  "resolved" "https://registry.npmjs.org/ngrok/-/ngrok-3.4.0.tgz"
-  "version" "3.4.0"
+"ngrok@3.4.1":
+  "integrity" "sha512-OTm6Nmi6JINPbzkZff8ysA2WqMeNDg3sOPMFHW2CpatVD5yJxmX1qdyLq3QYNACTKNB3/K9jTkG4wUVpAFX9Dw=="
+  "resolved" "https://registry.npmjs.org/ngrok/-/ngrok-3.4.1.tgz"
+  "version" "3.4.1"
   dependencies:
     "@types/node" "^8.10.50"
     "@types/request" "^2.48.2"
