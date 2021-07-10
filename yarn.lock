@@ -4621,10 +4621,10 @@
     "request" "^2.83.0"
     "request-promise" "^4.2.2"
 
-"nodemon@2.0.7":
-  "integrity" "sha512-XHzK69Awgnec9UzHr1kc8EomQh4sjTQ8oRf8TsGrSmHDx9/UmiGG9E/mM3BuTfNeFwdNBvrqQq/RHL0xIeyFOA=="
-  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.7.tgz"
-  "version" "2.0.7"
+"nodemon@2.0.12":
+  "integrity" "sha512-egCTmNZdObdBxUBw6ZNwvZ/xzk24CKRs5K6d+5zbmrMr7rOpPmfPeF6OxM3DDpaRx331CQRFEktn+wrFFfBSOA=="
+  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.12.tgz"
+  "version" "2.0.12"
   dependencies:
     "chokidar" "^3.2.2"
     "debug" "^3.2.6"
