@@ -1,12 +1,18 @@
-import React from 'react';
+import { Root, render } from '@urban-bot/core';
 import { UrbanBotFacebook } from '@urban-bot/facebook';
-import { render, Root } from '@urban-bot/core';
 import dotenv from 'dotenv';
+import React from 'react';
+
 import { App } from '../App';
 
 dotenv.config();
 
-const { FACEBOOK_APP_SECRET, FACEBOOK_PAGE_ACCESS_TOKEN, FACEBOOK_VERIFY_TOKEN, PORT } = process.env;
+const {
+    FACEBOOK_APP_SECRET,
+    FACEBOOK_PAGE_ACCESS_TOKEN,
+    FACEBOOK_VERIFY_TOKEN,
+    PORT,
+} = process.env;
 
 if (!FACEBOOK_APP_SECRET) {
     throw new Error(
@@ -33,7 +39,11 @@ const urbanBotFacebook = new UrbanBotFacebook({
 });
 
 render(
-    <Root bot={urbanBotFacebook} isNewMessageEveryRender port={PORT ? Number(PORT) : undefined}>
+    <Root
+        bot={urbanBotFacebook}
+        isNewMessageEveryRender
+        port={PORT ? Number(PORT) : undefined}
+    >
         <App />
     </Root>,
     () => console.log('facebook bot has started'),

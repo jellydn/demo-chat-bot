@@ -1,7 +1,8 @@
-import React from 'react';
+import { Root, render } from '@urban-bot/core';
 import { UrbanBotSlack } from '@urban-bot/slack';
-import { render, Root } from '@urban-bot/core';
 import dotenv from 'dotenv';
+import React from 'react';
+
 import { App } from '../App';
 
 dotenv.config();
@@ -15,7 +16,9 @@ if (!SLACK_SIGNING_SECRET) {
 }
 
 if (!SLACK_TOKEN) {
-    throw new Error('Provide SLACK_TOKEN to .env https://api.slack.com/authentication/token-types#granular_bot');
+    throw new Error(
+        'Provide SLACK_TOKEN to .env https://api.slack.com/authentication/token-types#granular_bot',
+    );
 }
 
 const urbanBotSlack = new UrbanBotSlack({

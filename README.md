@@ -50,18 +50,3 @@ Start your tests. File matching `*.test.(js|jsx)`.
 #### `npm run typecheck`
 Check typescript errors.
 
-## Import files
-You could import any file and paste to components as buffer or stream. It will be automatically added to dist bundle.
-```jsx
-import image from './assets/logo.png';
-import doc from './assets/document.doc';
-
-function App() {
-  return (
-    <>
-      <Image file={fs.createReadStream(image)} />
-      <File file={fs.readFileSync(doc)} />
-    </>
-  );
-}
-```
