@@ -8,6 +8,10 @@ import {
 } from '@urban-bot/core';
 import React, { useState } from 'react';
 
+function revertText(text: string) {
+    return text.split('').reverse().join('');
+}
+
 function Echo() {
     const [text, setText] = useState('Say something');
 
@@ -18,6 +22,10 @@ function Echo() {
     return (
         <Text>
             <i>{text}</i>
+            <br />
+            <b>
+                <u>{revertText(text)}</u>
+            </b>
         </Text>
     );
 }
@@ -44,7 +52,10 @@ function Counter() {
 export function App() {
     return (
         <>
-            <Text>Welcome to IT Man Channel Bot! Type /echo or /counter.</Text>
+            <Text>
+                Welcome to IT Man Channel Bot! Type /echo or /counter for get
+                started.
+            </Text>
             <Router>
                 <Route path="/echo">
                     <Echo />
