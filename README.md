@@ -15,6 +15,8 @@
 
 > Start write chatbots with urban-bot and typescript
 
+[![#Build with IT Man - ChatBot & AI - Part 1 [Vietnamese]](https://i.ytimg.com/vi/q1ngSbMqXUE/hqdefault.jpg)](https://www.youtube.com/watch?v=q1ngSbMqXUE)
+
 ## Prerequisites
 
 -   node >=16.20.0
@@ -27,14 +29,16 @@ yarn install
 
 ## Usage
 
+Create .env from .env.example then run below command
+
 ```sh
-yarn run start
+yarn dev
 ```
 
 ## Run tests
 
 ```sh
-yarn run test
+yarn test
 ```
 
 ## How to setup
@@ -67,6 +71,11 @@ yarn run test
 
 -   Website: https://productsway.com/
 -   Github: [@jellydn](https://github.com/jellydn)
+
+## Resources
+
+-   [Urban Bot · The universal chatbot library based on React.](https://urban-bot.vercel.app/)
+-   [egoist/tsup: The simplest and fastest way to bundle your TypeScript libraries.](https://github.com/egoist/tsup)
 
 ## Show your support
 
