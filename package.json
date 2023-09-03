@@ -1,58 +1,56 @@
 {
-  "name": "demo-chat-bot",
-  "version": "0.1.0",
-  "description": "Start write chatbots with urban-bot and typescript",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jellydn/demo-chat-bot.git"
-  },
-  "license": "MIT",
-  "main": "dist/index.js",
-  "files": [
-    "dist/**/*"
-  ],
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch --clean --onSuccess \"node dist/index.js\"",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,md}\"",
-    "lint": "eslint \"./src\" --ext \".js,.jsx,.ts,.tsx\"",
-    "lint:fix": "npm run lint -- --fix",
-    "start": "node dist/index.js",
-    "start-tunnel": "ngrok http 8080",
-    "test": "vitest run",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@types/react": "^18.0.0",
-    "@urban-bot/core": "0.2.1",
-    "@urban-bot/facebook": "0.2.1",
-    "@urban-bot/slack": "0.2.1",
-    "@urban-bot/telegram": "0.2.1",
-    "dotenv": "9.0.1",
-    "file-loader": "6.2.0",
-    "pino": "^8.15.0",
-    "react": "18.2.0",
-    "typescript": "4.1.5"
-  },
-  "devDependencies": {
-    "@swc/core": "^1.3.82",
-    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
-    "@types/node": "18",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
-    "@vitest/coverage-c8": "^0.33.0",
-    "eslint": "^8.48.0",
-    "eslint-config-productsway": "^1.3.0",
-    "ngrok": "4.3.3",
-    "nodemon": "2.0.7",
-    "prettier": "^3.0.3",
-    "tsup": "^7.2.0",
-    "tsx": "^3.12.8",
-    "unplugin-swc": "^1.4.2",
-    "vite": "^4.4.9",
-    "vitest": "^0.34.3"
-  },
-  "engines": {
-    "node": ">=12.0.0"
-  }
+    "name": "demo-chat-bot",
+    "version": "0.1.0",
+    "description": "Start write chatbots with urban-bot and typescript",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jellydn/demo-chat-bot.git"
+    },
+    "license": "MIT",
+    "main": "dist/index.js",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch --clean --onSuccess \"node dist/index.js\"",
+        "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,md}\"",
+        "lint": "eslint \"./src\" --ext \".js,.jsx,.ts,.tsx\"",
+        "lint:fix": "npm run lint -- --fix",
+        "start": "node dist/index.js",
+        "start-tunnel": "ngrok http 8080",
+        "test": "vitest run",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@types/react": "^18.2.21",
+        "@urban-bot/core": "1.0.2",
+        "@urban-bot/facebook": "1.0.2",
+        "@urban-bot/slack": "1.0.2",
+        "@urban-bot/telegram": "1.0.2",
+        "dotenv": "16.3.1",
+        "pino": "^8.15.0",
+        "react": "18.2.0",
+        "typescript": "5.2.2"
+    },
+    "devDependencies": {
+        "@swc/core": "^1.3.82",
+        "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+        "@types/node": "20",
+        "@typescript-eslint/eslint-plugin": "^6.5.0",
+        "@typescript-eslint/parser": "^6.5.0",
+        "@vitest/coverage-c8": "^0.33.0",
+        "eslint": "^8.48.0",
+        "eslint-config-productsway": "^1.3.0",
+        "ngrok": "4.3.3",
+        "prettier": "^3.0.3",
+        "tsup": "^7.2.0",
+        "tsx": "^3.12.8",
+        "unplugin-swc": "^1.4.2",
+        "vite": "^4.4.9",
+        "vitest": "^0.34.3"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
 }
