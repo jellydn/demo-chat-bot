@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import React from 'react';
 
 import { App } from '../App';
+import logger from '../logger';
 
 dotenv.config();
 
@@ -40,11 +41,13 @@ const urbanBotFacebook = new UrbanBotFacebook({
 
 render(
     <Root
-        bot={urbanBotFacebook}
         isNewMessageEveryRender
+        bot={urbanBotFacebook}
         port={PORT ? Number(PORT) : undefined}
     >
         <App />
     </Root>,
-    () => console.log('facebook bot has started'),
+    () => {
+        logger.info('facebook bot has started');
+    },
 );

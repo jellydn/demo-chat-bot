@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import React from 'react';
 
 import { App } from '../App';
+import logger from '../logger';
 
 dotenv.config();
 
@@ -30,5 +31,7 @@ render(
     <Root bot={urbanBotSlack} port={PORT ? Number(PORT) : undefined}>
         <App />
     </Root>,
-    () => console.log('slack bot has started'),
+    () => {
+        logger.info('slack bot has started');
+    },
 );

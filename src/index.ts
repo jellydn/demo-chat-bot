@@ -1,5 +1,5 @@
 // Uncomment platform which you want to develop
 import './render/telegram';
 
-// import './render/facebook';
+// Import './render/facebook';
 // import './render/slack';

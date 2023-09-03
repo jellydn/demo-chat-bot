@@ -1,16 +1,12 @@
 import {
     Button,
     ButtonGroup,
-    Image,
     Route,
     Router,
     Text,
     useText,
 } from '@urban-bot/core';
-import fs from 'fs';
 import React, { useState } from 'react';
-
-import logo from './assets/logo.jpg';
 
 function Echo() {
     const [text, setText] = useState('Say something');
@@ -26,36 +22,35 @@ function Echo() {
     );
 }
 
-function Logo() {
-    const [title, setTitle] = useState('IT Man Channel Bot');
+function Counter() {
+    const [count, setCount] = React.useState(0);
 
-    const addRobot = () => {
-        setTitle(title + '🤖');
+    const increment = () => {
+        setCount(count + 1);
+    };
+
+    const decrement = () => {
+        setCount(count - 1);
     };
 
     return (
-        <Image
-            title={title}
-            file={fs.createReadStream(logo)}
-            buttons={
-                <ButtonGroup>
-                    <Button onClick={addRobot}>Add robot</Button>
-                </ButtonGroup>
-            }
-        />
+        <ButtonGroup title={count} isNewMessageEveryRender={false}>
+            <Button onClick={increment}>+1</Button>
+            <Button onClick={decrement}>-1</Button>
+        </ButtonGroup>
     );
 }
 
 export function App() {
     return (
         <>
-            <Text>Welcome to IT Man Channel Bot! Type /echo or /logo.</Text>
+            <Text>Welcome to IT Man Channel Bot! Type /echo or /counter.</Text>
             <Router>
                 <Route path="/echo">
                     <Echo />
                 </Route>
-                <Route path="/logo">
-                    <Logo />
+                <Route path="/counter">
+                    <Counter />
                 </Route>
             </Router>
         </>
