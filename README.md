@@ -76,6 +76,7 @@ yarn test
 
 -   [Urban Bot · The universal chatbot library based on React.](https://urban-bot.vercel.app/)
 -   [egoist/tsup: The simplest and fastest way to bundle your TypeScript libraries.](https://github.com/egoist/tsup)
+-   [jellydn/chatbot-starter-app: Develop chatbot with zero configuration using typescript](https://github.com/jellydn/chatbot-starter-app)
 
 ## Show your support
 
