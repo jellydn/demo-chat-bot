@@ -48,7 +48,7 @@
         "tsx": "3.12.10",
         "unplugin-swc": "1.4.2",
         "vite": "4.4.9",
-        "vitest": "0.34.4"
+        "vitest": "0.34.5"
     },
     "engines": {
         "node": ">=16.20.0"
