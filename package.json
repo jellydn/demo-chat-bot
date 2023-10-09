@@ -29,7 +29,7 @@
         "@urban-bot/slack": "1.0.2",
         "@urban-bot/telegram": "1.0.2",
         "dotenv": "16.3.1",
-        "pino": "8.15.6",
+        "pino": "8.15.7",
         "react": "18.2.0",
         "typescript": "5.2.2"
     },
@@ -46,7 +46,7 @@
         "prettier": "3.0.3",
         "tsup": "7.2.0",
         "tsx": "3.13.0",
-        "unplugin-swc": "1.4.2",
+        "unplugin-swc": "1.4.3",
         "vite": "4.4.11",
         "vitest": "0.34.6"
     },
