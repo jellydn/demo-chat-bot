@@ -23,7 +23,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@types/react": "18.2.33",
+        "@types/react": "18.2.34",
         "@urban-bot/core": "1.0.2",
         "@urban-bot/facebook": "1.0.2",
         "@urban-bot/slack": "1.0.2",
