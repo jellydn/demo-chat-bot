@@ -957,10 +957,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@urban-bot/core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@urban-bot/core/-/core-1.0.2.tgz#bb97be0d92296977127f5c9253b140798492c13b"
-  integrity sha512-aFwNmo/iJuIBVXLQm1yGFJyM01nAVrfyeTvCXp6xcoylkQHQ2cQPNHYHJhAHsBsIl0oALf9Eo5HqFfDCEP4Bnw==
+"@urban-bot/core@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@urban-bot/core/-/core-1.0.3.tgz#8fa33c0eea1720ed773520170b7fac3941e304bf"
+  integrity sha512-0rQpNR+Gh33kE9t2gp3soa2MlZDEHwW2Uk+pRF6A8DI9bU26Klp+t1Kn9rH77eyBeBTgsWdY3s5N+nRMn/k58w==
   dependencies:
     array-flatten "3.0.0"
     cross-fetch "3.1.5"
@@ -970,10 +970,10 @@
     path-parser "6.1.0"
     react-reconciler "^0.29.0"
 
-"@urban-bot/facebook@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@urban-bot/facebook/-/facebook-1.0.2.tgz#45f920450d4acb964b275461ad05a1779d430d62"
-  integrity sha512-G+8dFquxoNg38ZjU0Gnvqhu6w+k1z9ULKlpfL6UOp3dWead7CgCORxnOq4nmsCAoWAKNM8XaYIH7DlCBVWSHZw==
+"@urban-bot/facebook@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@urban-bot/facebook/-/facebook-1.0.3.tgz#cdb5c6a2badbce347e97a09de9311e1ec088955a"
+  integrity sha512-rYQnZxFisVArOk7ELWbzRJsDSdPNHk8RykEZyZnyr3I5iJcWVh+YxdeSoYpEEl3hQbrbjz/VPgXxQ2pwkHRkHw==
   dependencies:
     array-flatten "3.0.0"
     body-parser "1.20.1"
@@ -981,10 +981,10 @@
     crypto "1.0.1"
     request-promise "4.2.5"
 
-"@urban-bot/slack@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@urban-bot/slack/-/slack-1.0.2.tgz#1af032c06bc700c077c35da4e411cbc2a2a9101e"
-  integrity sha512-3H4BCMmpWM3O/WWhX/ZVCNgbWbYieWjShG6TQFJegRPYQ1fzN/dnuORDeKx6vzZqAmSXkBlgnPkym5XRmjcmjg==
+"@urban-bot/slack@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@urban-bot/slack/-/slack-1.0.3.tgz#3dc3a5a0523c1d0adaf7f8c0b3d1577f65b0198d"
+  integrity sha512-tU8yaZPo0gt3EQSI1+diRJKvL8ioX8yqgNXjXYXB07CrJaAQWZtwjiHFW5An9HaV9NWVbO2sc5KidyxWHg4mfg==
   dependencies:
     "@slack/events-api" "3.0.0"
     "@slack/interactive-messages" "2.0.0"
@@ -992,10 +992,10 @@
     "@slack/web-api" "6.0.0"
     body-parser "1.20.1"
 
-"@urban-bot/telegram@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@urban-bot/telegram/-/telegram-1.0.2.tgz#2be71cc56df2ee018276fd855a3f7e89a2e101f5"
-  integrity sha512-tQ2eqjYu6ZbhwEba5t+TEBCN2LffdhxsXNCqiFKil4tTEvQuG3esBOy5NqntyYXk0Dtz+fnv0ir1MQKV0eEdgQ==
+"@urban-bot/telegram@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@urban-bot/telegram/-/telegram-1.0.3.tgz#df3d1732ef086992303ad77cda1eb407c33176a7"
+  integrity sha512-JYcBtvw1ukNh6iewM5Rpx0J+4ZdzHRI6laM+NXViw51F+TZYSv9rzdU2+OPGbg5Y2rE9rNpibrW8HaBe0CYOLA==
   dependencies:
     "@types/node-telegram-bot-api" "0.53.6"
     express "4.17.1"
