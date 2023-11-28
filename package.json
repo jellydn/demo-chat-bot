@@ -23,7 +23,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@types/react": "18.2.38",
+        "@types/react": "18.2.39",
         "@urban-bot/core": "1.0.3",
         "@urban-bot/facebook": "1.0.3",
         "@urban-bot/slack": "1.0.3",
@@ -45,7 +45,7 @@
         "ngrok": "4.3.3",
         "prettier": "3.1.0",
         "tsup": "7.3.0",
-        "tsx": "4.5.0",
+        "tsx": "4.6.0",
         "unplugin-swc": "1.4.3",
         "vite": "4.5.0",
         "vitest": "0.34.6"
