@@ -23,7 +23,7 @@
         "typecheck": "tsc --noEmit"
     },
     "dependencies": {
-        "@types/react": "18.2.70",
+        "@types/react": "18.2.71",
         "@urban-bot/core": "1.0.7",
         "@urban-bot/facebook": "1.0.7",
         "@urban-bot/slack": "1.0.7",
@@ -34,7 +34,7 @@
         "typescript": "5.4.3"
     },
     "devDependencies": {
-        "@swc/core": "1.4.8",
+        "@swc/core": "1.4.11",
         "@trivago/prettier-plugin-sort-imports": "4.3.0",
         "@types/node": "20.11.30",
         "@typescript-eslint/eslint-plugin": "6.21.0",
