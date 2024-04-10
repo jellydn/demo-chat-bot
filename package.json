@@ -31,7 +31,7 @@
         "dotenv": "16.4.5",
         "pino": "8.20.0",
         "react": "18.2.0",
-        "typescript": "5.4.4"
+        "typescript": "5.4.5"
     },
     "devDependencies": {
         "@swc/core": "1.4.13",
