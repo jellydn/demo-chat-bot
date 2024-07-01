@@ -5710,10 +5710,10 @@ typed-array-length@^1.0.6:
     is-typed-array "^1.1.13"
     possible-typed-array-names "^1.0.0"
 
-typescript@5.5.2:
-  version "5.5.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.2.tgz#c26f023cb0054e657ce04f72583ea2d85f8d0507"
-  integrity sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==
+typescript@5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.3.tgz#e1b0a3c394190838a0b168e771b0ad56a0af0faa"
+  integrity sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==
 
 ufo@^1.5.3:
   version "1.5.3"
@@ -5740,16 +5740,16 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
-unplugin-swc@1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/unplugin-swc/-/unplugin-swc-1.4.5.tgz#e33a7af23d325eb61f745b7cde76a65c02209dc6"
-  integrity sha512-ltkJ70kjL53onJrypaMmKDiOvhghNUCbCxjxT6Ir0eAMIBsOfRhPt6vQtxB8R/6wYk/TfIJ2gCgdx2uKNPJRHA==
+unplugin-swc@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/unplugin-swc/-/unplugin-swc-1.5.0.tgz#f316ba9507953c5dc7c931d5bc9f151c4a5627b5"
+  integrity sha512-pm6ChUa8qTJVm02cXQwiFhYIonSeYhp/58WKwz8hHYcaZxU4CsF5Z8y4kRUFQIHVC2GqVZp4Jt5mQ7UC2lgQEQ==
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
     load-tsconfig "^0.2.5"
-    unplugin "^1.10.1"
+    unplugin "^1.11.0"
 
-unplugin@^1.10.1:
+unplugin@^1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-1.11.0.tgz#09237b4011075e65c8f4d0ae06e221dee12750e3"
   integrity sha512-3r7VWZ/webh0SGgJScpWl2/MRCZK5d3ZYFcNaeci/GQ7Teop7zf0Nl2pUuz7G21BwPd9pcUPOC5KmJ2L3WgC5g==
