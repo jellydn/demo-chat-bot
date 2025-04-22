@@ -6214,10 +6214,10 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==
 
-unplugin-swc@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/unplugin-swc/-/unplugin-swc-1.5.1.tgz#55917728c7744243cb2091d85726fdb773daf848"
-  integrity sha512-/ZLrPNjChhGx3Z95pxJ4tQgfI6rWqukgYHKflrNB4zAV1izOQuDhkTn55JWeivpBxDCoK7M/TStb2aS/14PS/g==
+unplugin-swc@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/unplugin-swc/-/unplugin-swc-1.5.2.tgz#60dde6a184bd83f7e38bcc2a037174a39e9816fd"
+  integrity sha512-bf8DJO8lD1wpnwFglQpVH2XEaFfVsSU5C7yFyLwGT1gxskPtejlDeuttKxjtmHTSqrDsQrK0FCFdhw3Ny+K7hA==
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
     load-tsconfig "^0.2.5"

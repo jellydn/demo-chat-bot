@@ -46,7 +46,7 @@
         "prettier": "3.5.3",
         "tsup": "7.3.0",
         "tsx": "4.19.3",
-        "unplugin-swc": "1.5.1",
+        "unplugin-swc": "1.5.2",
         "vite": "4.5.13",
         "vitest": "0.34.6"
     },
